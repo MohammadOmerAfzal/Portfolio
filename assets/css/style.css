@@ -1089,6 +1089,16 @@ main {
       }
       
 /* Custom styles for the video item */
+
+/* Hide all video items by default */
+.video-item {
+  display: none;
+}
+
+/* Show video items with the "active" class */
+.video-item.active {
+  display: block;
+}
 .video-item {
   .plyr-container {
     max-width: 100%;
